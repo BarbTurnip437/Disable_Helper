@@ -46,7 +46,7 @@ def delete_assets(file_path, messages):
 		print(messages["delete_unknown_error"].format(file_path=file_path, Error=Error), end="")
 
 
-def parse_config(config_file="禁用助手配置文件.json"):
+def parse_config(config_file="disable_helper_config.json"):
 	"""Parses the configuration file and creates a default if missing."""
 	# Load or create configuration
 	if not os.path.exists(config_file):
